@@ -1,0 +1,83 @@
+/* reset margin, padding */
+body{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.red{
+  border: 1px solid red;
+}
+
+.banner{
+  height: 600px;
+  background: url(./image/banner_2.jpg)  ;
+  background-size: cover;
+  padding: 20px;
+}
+.about-sign-in{
+  height: 80px;
+  width: 100%;
+  text-align: right;
+}
+.about, .sign-in{
+  display: inline-block;
+  padding: 10 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: yellow;
+}
+.sign-in{
+  margin-right: 60px;
+  margin-left: 25px;
+  border: 2px solid yellow;
+  border-radius: 20px;
+ 
+}
+.logo{
+
+}
+.text{
+  text-align: center;
+  color: yellow;
+  font-size: 20px;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+.btn-start-now{
+  text-align: center;
+}
+.banner .btn-start-now button{
+  text-transform: uppercase;
+  border: 2px solid yellow;
+  border-radius: 20px;
+  padding: 7 10px;
+  background-color: black;
+  color: yellow;
+}
+
+.left, .center, .right{
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  color: white;
+  margin-top: 15px;
+  
+}
+.content-center{
+  margin-top: 150px;
+}
+span{
+  display: block;
+  font-size: 20px;
+  color: yellow;
+  margin-top: 15px;
+}
+.banner .content-center .left i{
+  color: yellow;
+}
+.banner .content-center .center i{
+  color: yellow;
+}
+.banner .content-center .right i{
+  color: yellow;
+}
